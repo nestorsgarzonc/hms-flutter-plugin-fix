@@ -2,7 +2,7 @@
     package="com.huawei.hms.flutter.push">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <application>
+    <application android:exported="true" >
         <service
             android:name="com.huawei.hms.flutter.push.hms.FlutterHmsMessageService"
             android:exported="true">
